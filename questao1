@@ -1,0 +1,9 @@
+
+var palavra = function(string){
+
+    console.log(string.substring(0,4));
+
+}
+
+
+palavra("Lucas");
