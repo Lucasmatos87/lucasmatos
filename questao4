@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Questão 4</title>
+</head>
+<body>
+  <div id="box" >
+</div>
+</body>
+</html>
+
+**************************************
+
+#box{
+    background:yellow; 
+    width:200px; 
+    position:relative;  
+    height:200px; 
+}
+
+*********************
+
+var trocar = function(){
+  var posição = 100; 
+  
+document.getElementById("box").style.top = (posição+'px');
+document.getElementById("box").style.left = (posição+'px');
+}
+
+var linha = window.setInterval(trocar, 1000);
