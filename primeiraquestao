@@ -9,7 +9,7 @@
   <body>
     <h1>Primeira questão</h1>
     <p>
-      As quatro primeiras são:
+      As quatro primeiras letras são:
       <br>
       <texto id="resultado">
       </texto>
