@@ -22,10 +22,10 @@
 *********************
 
 var trocar = function(){
-  var posição = 100; 
+  var posição = 10; 
   
 document.getElementById("box").style.top = (posição+'px');
 document.getElementById("box").style.left = (posição+'px');
 }
 
-var linha = window.setInterval(trocar, 1000);
+var linha = window.setInterval(trocar, 10);
